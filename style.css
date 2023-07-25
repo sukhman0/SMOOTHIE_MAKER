@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color for the body */
+body {
+    background-color: bisque;
+}
+
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+}
+
+/* Form container styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    /* margin: 0 auto; */
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+
+/* Select dropdown styles */
+select {
+    width: 80%;
+    margin-top: 7px;
+}
+
+/* Subheading styles */
+h3 {
+    font-size: 1.4rem;
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+/* Toppings container styles */
+.toppings {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Toppings section styles */
+.topicDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+
+/* Topping label styles */
+.topicDiv label {
+    margin: 3px 0;
+}
+
+/* Topping input styles */
+.topicDiv input {
+    margin: 5px 0;
+}
+
+/* Toppings container (inner div) styles */
+.topicDiv div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* Sweetness level input styles */
+.sweatness input {
+    width: 70%;
+    margin: 10px 0;
+}
+
+/* Sweetness level display styles */
+.sweatness p {
+    width: 70%;
+    margin: 10px 2;
+    display: inline;
+}
+
+/* Button styles */
+button {
+    padding: 5px;
+    background-color: rgb(57, 118, 233);
+    border: 2px solid bisque;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Button hover styles */
+button:hover {
+    padding: 5px;
+    background-color: white;
+    color: rgb(57, 118, 233);
+    border: 2px solid rgb(57, 118, 233);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container for the full form body */
+.fullBody {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+/* Container for smoothie description display */
+#smoothieDescription {
+    /* border: 2px solid red; */
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+/* Smoothie description paragraph styles */
+#smoothieDescription p {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Smoothie description span styles */
+#smoothieDescription span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Smoothie description heading styles */
+#smoothieDescription h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
